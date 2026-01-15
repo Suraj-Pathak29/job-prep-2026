@@ -1,5 +1,5 @@
 from flask import Blueprint , jsonify , request , abort
-from python.student_logic import students , add_student_db , get_all_students_db ,get_student_by_id_db , delete_student_db
+from python.student_logic import add_student_db , get_all_students_db ,get_student_by_id_db , delete_student_db
 students_bp = Blueprint("students" , __name__)
 
 

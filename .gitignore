@@ -8,6 +8,7 @@ env/
 
 #SQLite database
 students.db
+sql/*.db
 
 # VS Code settings
 .vscode/
